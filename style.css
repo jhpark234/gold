@@ -1,7 +1,8 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
   background-color: #ffffff;
 }
+
 
 .file-upload {
   padding: 15% 15%;
@@ -94,8 +95,8 @@ body {
 }
 
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 100%;
+  max-width: 60%;
   margin: auto;
   padding: 20px;
 }
@@ -115,6 +116,7 @@ body {
   font-weight: 700;
 }
 
+
 .remove-image:hover {
   background: #c13b2a;
   color: #ffffff;
@@ -129,8 +131,8 @@ body {
 .nav-distance{
     padding: 2.1% 7.7%;
 }
-.navbar-lifht .navbar-brand{
-    font-family: NanumSquareR;
+.navbar-light .navbar-brand{
+    font-size: 1.5rem;
     line-height: 1.68;
     text-align: left;
     color: #35465d;
@@ -139,22 +141,22 @@ body {
 
 .navbar-light .navbar-toggler{
     border-color: #ffffff;
+
 }
 .section{
     margin-top: 100px;
 }
 
 .title{
-    
-    font-family: NanumSquaeR;
-    line-height:1.67;
+    font-size: 3rem;
+    line-height:1.9;
     text-align: center;
     color: #35465d;
 }
 
 .subtitle{
    
-    font-family: NanumSquaeR;
+    font-size: 2.5rem;
     line-height:1.53;
     text-align: center;
     color: #35465d;
@@ -174,10 +176,25 @@ body {
     margin:0 auto;
     
 }
+.result-title{
+    font-size: 2rem; 
+    display: block;
+    font color: red;
+    
 
-.result-message {
-    font-size: 1.5rem;
 }
+
+p{
+    color: #D81B60 ;
+}
+
+
+
+.result-massage{
+    font-size: 1.6rem; 
+    display:block;
+}
+    
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
@@ -185,7 +202,4 @@ body {
       font-size: 10px;
 }
 
-    .navbar-brand{
-        font-size: 2rem;
-        font color: blue;
-    }
+
